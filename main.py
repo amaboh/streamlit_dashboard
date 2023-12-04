@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title="Shopping Center!!!", page_icon=":bar_chart:", layout="wide")
 
-st.title(" :bar_chart: Shopping Center EDA")
+st.title(" :bar_chart: EDA Shopping Center")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>', unsafe_allow_html=True)
 
 f1 = st.file_uploader(":file_folder: Upload a file", type=(["csv", "txt","xlsx", "xls"]))
