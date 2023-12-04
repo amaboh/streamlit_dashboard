@@ -21,7 +21,7 @@ if f1 is not None:
     else:
         df = pd.read_csv(f1, encoding="ISO-8859-1")
 else:
-    os.chdir("/Volumes/AM/Desktop/Projects/streamlit_dashboard")
+    #os.chdir("/Volumes/AM/Desktop/Projects/streamlit_dashboard")
     df = pd.read_excel("./Sample-store.xls")
     
 col1, col2 = st.columns((2))
